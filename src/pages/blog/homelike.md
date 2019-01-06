@@ -3,19 +3,19 @@ path: '/blog/my-first-post'
 date: '2017-11-07'
 title: 'My first blog post'
 type: 'blog'
+image: 'https://images.unsplash.com/photo-1546624462-9e3c36d657c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'
 ---
 
-### hallo
+Hallo! Mein Name ist Marvin Kubiak, 1990 ist meine Lieblingszahl und ich beschäftige mich ständig mit Designdisziplinen wie Typografie, 3D Rendering, Farblehre und sonstigen kleinen Dingen, die die Welt ein Stückchen einfacher machen soll. Neuerdings beschäftige ich mit den Prozessen in der User Exprerience und das Aufziehen eines Visual Design
 
-**fett**
-_kursiv_
+Hallo! Mein Name ist Marvin Kubiak, 1990 ist meine Lieblingszahl und ich beschäftige mich ständig mit Designdisziplinen wie Typografie, 3D Rendering, Farblehre und sonstigen kleinen Dingen, die die Welt ein Stückchen einfacher machen soll. Neuerdings beschäftige ich mit den Prozessen in der User Exprerience und das Aufziehen eines Visual Design
 
-You can now view gatsby-starter-default in the browser.
+Hallo! Mein Name ist Marvin Kubiak, 1990 ist meine Lieblingszahl und ich beschäftige mich ständig mit Designdisziplinen wie Typografie, 3D Rendering, Farblehre und sonstigen kleinen Dingen, die die Welt ein Stückchen einfacher machen soll. Neuerdings beschäftige ich mit den Prozessen in der User Exprerience und das Aufziehen eines Visual Design
 
-http://localhost:8000/
+![Bild](https://images.unsplash.com/photo-1546632491-6334dd65f7af)
 
-View GraphiQL, an in-browser IDE, to explore your site's data and schema
+Hallo! Mein Name ist Marvin Kubiak, 1990 ist meine Lieblingszahl und ich beschäftige mich ständig mit Designdisziplinen wie Typografie, 3D Rendering, Farblehre und sonstigen kleinen Dingen, die die Welt ein Stückchen einfacher machen soll. Neuerdings beschäftige ich mit den Prozessen in der User Exprerience und das Aufziehen eines Visual Design
 
-http://localhost:8000/___graphql
+Hallo! Mein Name ist Marvin Kubiak, 1990 ist meine Lieblingszahl und ich beschäftige mich ständig mit Designdisziplinen wie Typografie, 3D Rendering, Farblehre und sonstigen kleinen Dingen, die die Welt ein Stückchen einfacher machen soll. Neuerdings beschäftige ich mit den Prozessen in der User Exprerience und das Aufziehen eines Visual Design
 
-Note that the development build is not optimized.
+![Bild](https://images.unsplash.com/photo-1546632491-6334dd65f7af)
