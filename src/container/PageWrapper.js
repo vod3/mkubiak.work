@@ -8,18 +8,18 @@ import { Page, Main } from './styles';
 
 const PageWrapper = ({ children }) => {
   return (
-    <MyGlobalStyles>
-      <StaticQuery
-        query={graphql`
-          query HelmetQuery {
-            site {
-              siteMetadata {
-                title
-              }
+    <StaticQuery
+      query={graphql`
+        query HelmetQuery {
+          site {
+            siteMetadata {
+              title
             }
           }
-        `}
-        render={data => (
+        }
+      `}
+      render={data => (
+        <MyGlobalStyles>
           <Page>
             <Helmet title={data.site.siteMetadata.title}>
               <html lang="en" />
@@ -27,9 +27,9 @@ const PageWrapper = ({ children }) => {
             <Navigation />
             <Main>{children}</Main>
           </Page>
-        )}
-      />
-    </MyGlobalStyles>
+        </MyGlobalStyles>
+      )}
+    />
   );
 };
 
