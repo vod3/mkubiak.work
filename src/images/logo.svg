@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>logo</title>
-    <desc>Created with Sketch.</desc>
-    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-789.000000, -48.000000)">
-            <g id="nav" transform="translate(539.000000, 48.000000)">
-                <g id="logo" transform="translate(250.000000, 0.000000)">
-                    <circle id="circle-+-color" fill="#303133" cx="51" cy="51" r="51"></circle>
-                    <polygon id="Path-6" fill="#D8D8D8" fill-rule="nonzero" points="51 59 46 78 56 78"></polygon>
-                    <polygon id="Path-6" fill="#FFFFFF" fill-rule="nonzero" opacity="0.699999988" points="51 59 56 78 46 78"></polygon>
-                    <polygon id="Path-7" fill="#FFFFFF" fill-rule="nonzero" points="51 58.4651163 70 36 56 78"></polygon>
-                    <polygon id="Path-8" fill="#FFFFFF" fill-rule="nonzero" opacity="0.900000036" points="51 59 64 23 70 36"></polygon>
-                    <polygon id="Path-9" fill="#FFFFFF" fill-rule="nonzero" opacity="0.800000012" points="64 23 83 23 83 78 70 35.7678571"></polygon>
-                    <polygon id="Path-10" fill="#FFFFFF" fill-rule="nonzero" points="83 78 70 78 70 36"></polygon>
-                    <polygon id="Path-7" fill="#FFFFFF" fill-rule="nonzero" points="51 58.4651163 32 36 46 78"></polygon>
-                    <polygon id="Path-8" fill="#FFFFFF" fill-rule="nonzero" opacity="0.900000036" points="51 59 38 23 32 36"></polygon>
-                    <polygon id="Path-9" fill="#FFFFFF" fill-rule="nonzero" opacity="0.800000012" points="38 23 19 23 19 78 32 35.7678571"></polygon>
-                    <polygon id="Path-10" fill="#FFFFFF" fill-rule="nonzero" points="19 78 32 78 32 36"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <path fill="#303133" fill-rule="evenodd" d="M48,96 C21.490332,96 0,74.509668 0,48 C0,21.490332 21.490332,0 48,0 C74.509668,0 96,21.490332 96,48 C96,74.509668 74.509668,96 48,96 Z M48,42 L60,30 L60,24 L54,18 L48,18 L42,18 L36,24 L36,30 L48,42 Z M27,78 L33,78 L39,72 L45,78 L45,47 L33,35 L27,35 L21,41 L21,72 L27,78 Z M69,78 L75,72 L75,41 L69,35 L63,35 L51,47 L51,78 L57,72 L63,78 L69,78 Z"/>
 </svg>

@@ -12,7 +12,7 @@ export const Logo = styled.img`
   width: 40px;
   margin: 0 24px;
   @media (min-width: 600px) {
-    width: 102px;
+    width: 64px;
   }
 `;
 
