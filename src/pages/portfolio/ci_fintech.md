@@ -1,15 +1,18 @@
 ---
 path: '/portfolio/ci_fintech'
 date: '2017-11-07'
-title: 'Corporate Identity'
-subtitle: 'Fintech'
+title: 'Fintech Redesign – Study'
+subtitle: 'Corporate Identity'
 type: 'portfolio'
 image: '/images/work/02.jpg'
 ---
 
-So, you quit your job. You’re on your own now.
-Congratulations!
-Now you have to find new clients — build those relationships— learn sales — learn accounting — get in to the hustle. There are tons of articles out there about the logistics and skills of freelancing. But there aren’t too many about attitude.
-And so, I present to you my _wildly idealistic, but that hasn’t stopped working for me yet_ principles for success.
+_What if?_
+The old Corporate Identity from a german Fintech startup has its origin in the year 2011, but the Business focus shifted a lot since. In times where a brand has to be presented on all plattforms and screensizes the CI has to be adaptive from the start. From classic Print to adaptive screensizes the Corporate Identity was build from scratch and presented on different mediums.
+
+_Was wäre wenn?_ <br>
+Die mittlerweile veraltete Corporate Identity von moneymeets stammt noch aus der Gründerzeit 2011, doch die Geschäftsstrategtie hat sich seitdem fundamental geändert. In Zeiten wo Unternehmen auf allen Medien und Platformen vertreten sein wollen, muss die Marke und das CI flexibel und einfach zu verstehen sein.
+Von Geschäftspapieren bis zu Smartphones sollte die Erscheinung der Marke funktionieren.
+Anschließend habe wurde das neue Logo auf verschiedenen Trägermedien in 3D gerendert.
 
 ![CI](../../images/work/02.jpg)
