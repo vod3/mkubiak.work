@@ -6,6 +6,7 @@ export const Wrapper = styled.header`
   justify-content: center;
   align-items: center;
   padding: 40px 0;
+  margin-bottom: 128px;
 `;
 
 export const Logo = styled.img`
