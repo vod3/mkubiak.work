@@ -24,7 +24,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
-        image
+        image {
+          childImageSharp {
+            original {
+              src
+            }
+          }
+        }
         subtitle
       }
     }

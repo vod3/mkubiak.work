@@ -18,7 +18,13 @@ const PortfolioGrid = () => {
                   date(formatString: "MMMM DD, YYYY")
                   path
                   title
-                  image
+                  image {
+                    childImageSharp {
+                      original {
+                        src
+                      }
+                    }
+                  }
                 }
               }
             }

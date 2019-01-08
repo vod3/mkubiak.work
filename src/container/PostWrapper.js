@@ -7,6 +7,10 @@ import PostGlobals from './PostGlobals';
 import { PostPage, Post, PostImage, BackLink } from './styles';
 
 const PostWrapper = ({ children, title, subtitle, image }) => {
+  const { childImageSharp = {} } = image;
+  const { original = {} } = childImageSharp;
+  const { src = '' } = original;
+
   return (
     <PostGlobals>
       <PostPage>
@@ -18,7 +22,7 @@ const PostWrapper = ({ children, title, subtitle, image }) => {
           <BackLink to="/blog">← Back to Articles</BackLink>
         </Row>
         <Post>
-          <PostImage image={image} />
+          <PostImage image={src} />
           <h1>{title}</h1>
           <h2 style={{ marginBottom: 52 }}>{subtitle}</h2>
           {children}

@@ -4,7 +4,7 @@ date: '2017-11-07'
 title: 'Fintech Redesign – Study'
 subtitle: 'Corporate Identity'
 type: 'portfolio'
-image: '/images/work/02.jpg'
+image: '../../images/work/fintech_mockup.jpg'
 ---
 
 _What if?_
@@ -15,4 +15,4 @@ Die mittlerweile veraltete Corporate Identity von moneymeets stammt noch aus der
 Von Geschäftspapieren bis zu Smartphones sollte die Erscheinung der Marke funktionieren.
 Anschließend habe wurde das neue Logo auf verschiedenen Trägermedien in 3D gerendert.
 
-![CI](../../images/work/02.jpg)
+![CI](../../images/work/fintech_mockup.jpg)
