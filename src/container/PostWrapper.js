@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import get from 'lodash/get';
 
 import Navigation from '../components/Navigation';
 import { Row } from '../styles';
@@ -7,9 +8,7 @@ import PostGlobals from './PostGlobals';
 import { PostPage, Post, PostImage, BackLink } from './styles';
 
 const PostWrapper = ({ children, title, subtitle, image }) => {
-  const { childImageSharp = {} } = image;
-  const { original = {} } = childImageSharp;
-  const { src = '' } = original;
+  const src = get(image, 'childImageSharp.original.src', '');
 
   return (
     <PostGlobals>
