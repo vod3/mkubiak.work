@@ -9,14 +9,19 @@
 const path = require('path');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const blogPostTemplate = path.resolve(`src/templates/blogTemplates.js`);
+  const portfolioPostTemplate = path.resolve(`src/templates/portfolioTemplate.js`);
 
-  return graphql(`
+  const portfolio = await graphql(`
     {
-      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 1000) {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+        filter: { frontmatter: { type: { eq: "portfolio" } } }
+      ) {
         edges {
           node {
             frontmatter {
@@ -26,16 +31,45 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
+  `);
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  const blog = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+        filter: { frontmatter: { type: { eq: "blog" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              path
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  if (portfolio.errors) {
+    throw blog.errors;
+  } else {
+    portfolio.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: portfolioPostTemplate,
+      });
+    });
+  }
+
+  if (blog.errors) {
+    throw blog.errors;
+  } else {
+    blog.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
       });
     });
-  });
+  }
 };

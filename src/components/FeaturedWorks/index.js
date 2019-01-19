@@ -4,12 +4,16 @@ import { StaticQuery, graphql } from 'gatsby';
 import { Grid } from './styles';
 import PortfolioLink from './PortfolioLink';
 
-const PortfolioGrid = () => {
+const FeaturedWorks = () => {
   return (
     <StaticQuery
       query={graphql`
         query {
-          allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: { frontmatter: { type: { eq: "portfolio" } } }) {
+          allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            limit: 3
+            filter: { frontmatter: { featured: { eq: true }, type: { eq: "portfolio" } } }
+          ) {
             edges {
               node {
                 id
@@ -18,6 +22,7 @@ const PortfolioGrid = () => {
                   date(formatString: "MMMM DD, YYYY")
                   path
                   title
+                  subtitle
                   image {
                     childImageSharp {
                       original {
@@ -33,8 +38,8 @@ const PortfolioGrid = () => {
       `}
       render={({ allMarkdownRemark: { edges } }) => (
         <Grid>
-          {edges.map(({ node: { id, frontmatter } }) => (
-            <PortfolioLink key={id} {...frontmatter} />
+          {edges.map(({ node: { id, excerpt, frontmatter } }) => (
+            <PortfolioLink key={id} {...frontmatter} excerpt={excerpt} />
           ))}
         </Grid>
       )}
@@ -42,4 +47,4 @@ const PortfolioGrid = () => {
   );
 };
 
-export default PortfolioGrid;
+export default FeaturedWorks;

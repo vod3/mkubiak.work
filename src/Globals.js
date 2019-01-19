@@ -24,8 +24,8 @@ export const globalStyles = css`
   body {
     margin: 0;
     padding: 0;
-    background-color: #fafcff;
-    color: #182837;
+    background-color: #303133;
+    color: #ffffff;
     font-family: 'Inter UI', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -41,8 +41,9 @@ export const globalStyles = css`
   h2 {
     font-style: italic;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 48px;
+    color: #ccd0d9;
     margin: 0;
   }
   p {
@@ -51,7 +52,7 @@ export const globalStyles = css`
     margin: 0;
     margin-bottom: 64px;
     .highlight {
-      background: #6699cc33;
+      background: #87ceeb88;
     }
   }
 `;

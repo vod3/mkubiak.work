@@ -2,14 +2,33 @@ import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
 export const Page = styled.div`
-  display: grid;
-  grid-template-rows: auto 1fr;
+  display: block;
+  position: relative;
   height: 100vh;
   width: 100vw;
+  padding-top: 280px;
 `;
 
 export const PostPage = styled(Page)`
   grid-template-rows: auto auto 1fr;
+`;
+
+export const PortfolioPage = styled(Page)`
+  padding-top: 0;
+`;
+
+export const PortfolioHeader = styled.div`
+  width: 100%;
+  height: 85vh;
+  background: ${({ background }) => background};
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+`;
+
+export const PortfolioImage = styled.img`
+  width: 100%;
+  max-width: 800px;
 `;
 
 export const Main = styled.main`
@@ -22,25 +41,6 @@ export const Post = styled.main`
   max-width: 800px;
   margin: 0 auto;
   padding: 16px;
-  background-color: #fafcffaa;
-`;
-
-export const PostImage = styled.div`
-  display: none;
-  @media (min-width: 600px) {
-    display: block;
-    width: 50vw;
-    position: absolute;
-    padding-top: 66%;
-    background-image: url(${({ image }) => image});
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
-    right: 50%;
-    top: -178px;
-    filter: grayscale(100%);
-    opacity: 0.2;
-  }
 `;
 
 export const BackLink = styled(Link)`
@@ -49,5 +49,5 @@ export const BackLink = styled(Link)`
   font-size: 21px;
   color: #899394;
   line-height: 48px;
-  margin-bottom: 178px;
+  margin-bottom: 16px;
 `;

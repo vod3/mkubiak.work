@@ -5,6 +5,8 @@ title: 'Fintech Redesign – Study'
 subtitle: 'Corporate Identity'
 type: 'portfolio'
 image: '../../images/work/fintech_mockup.jpg'
+headerColor: 'radial-gradient(circle at 47% 57%, #999999, #6a6a6a)'
+featured: true
 ---
 
 _What if?_

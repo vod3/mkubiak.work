@@ -3,33 +3,31 @@ import Helmet from 'react-helmet';
 import get from 'lodash/get';
 
 import Navigation from '../components/Navigation';
-import { Row } from '../styles';
 import PostGlobals from './PostGlobals';
-import { PostPage, Post, BackLink } from './styles';
+import { PortfolioPage, PortfolioHeader, PortfolioImage, Post, BackLink } from './styles';
 
-const PostWrapper = ({ children, title, subtitle, image }) => {
+const PortfolioWrapper = ({ title, subtitle, image, headerColor, html }) => {
   const src = get(image, 'childImageSharp.original.src', '');
-  console.log(src);
 
   return (
     <PostGlobals>
-      <PostPage>
+      <PortfolioPage>
         <Helmet title={`${title} | MKubiak`}>
           <html lang="en" />
         </Helmet>
         <Navigation />
-        <Row>
-          <BackLink to="/blog">← Back to Articles</BackLink>
-        </Row>
+        <PortfolioHeader background={headerColor}>
+          <PortfolioImage src={src} />
+        </PortfolioHeader>
         <Post>
-          {/* <PostImage image={src} /> */}
+          <BackLink to="/portfolio">← Back to Portfolio</BackLink>
           <h1>{title}</h1>
           <h2 style={{ marginBottom: 52 }}>{subtitle}</h2>
-          {children}
+          <div dangerouslySetInnerHTML={{ __html: html }} />
         </Post>
-      </PostPage>
+      </PortfolioPage>
     </PostGlobals>
   );
 };
 
-export default PostWrapper;
+export default PortfolioWrapper;

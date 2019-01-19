@@ -24,8 +24,8 @@ export const globalStyles = css`
   body {
     margin: 0;
     padding: 0;
-    background-color: #fafcff;
-    color: #182837;
+    background-color: #303133;
+    color: white;
     font-family: 'Inter UI', sans-serif;
     font-size: 16px;
     line-height: 24px;
