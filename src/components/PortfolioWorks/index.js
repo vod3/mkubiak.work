@@ -1,8 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-import PortfolioLink from '../PortfolioLink';
 import { Grid } from './styles';
+import PortfolioLink from '../PortfolioLink';
 
 const FeaturedWorks = () => {
   return (
@@ -12,7 +12,7 @@ const FeaturedWorks = () => {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             limit: 3
-            filter: { frontmatter: { featured: { eq: true }, type: { eq: "portfolio" } } }
+            filter: { frontmatter: { type: { eq: "portfolio" } } }
           ) {
             edges {
               node {

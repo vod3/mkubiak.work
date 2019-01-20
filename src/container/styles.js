@@ -6,7 +6,11 @@ export const Page = styled.div`
   position: relative;
   height: 100vh;
   width: 100vw;
-  padding-top: 280px;
+  padding-top: 134px;
+  border-top: 6px solid #ffffff;
+  @media (min-width: 600px) {
+    padding-top: 280px;
+  }
 `;
 
 export const PostPage = styled(Page)`
@@ -15,6 +19,10 @@ export const PostPage = styled(Page)`
 
 export const PortfolioPage = styled(Page)`
   padding-top: 0;
+  border-top: 0;
+  @media (min-width: 600px) {
+    padding-top: 0;
+  }
 `;
 
 export const PortfolioHeader = styled.div`
@@ -40,7 +48,7 @@ export const Post = styled.main`
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 48px 16px;
 `;
 
 export const BackLink = styled(Link)`

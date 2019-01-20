@@ -34,25 +34,38 @@ export const globalStyles = css`
   h1 {
     font-weight: 900;
     font-style: italic;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 21px;
+    line-height: 32px;
     margin: 0;
+    @media (min-width: 600px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
   }
   h2 {
     font-style: italic;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 21px;
+    line-height: 32px;
     color: #ccd0d9;
     margin: 0;
+    @media (min-width: 600px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
   }
   p {
-    font-size: 21px;
-    line-height: 48px;
+    font-size: 16px;
+    line-height: 32px;
     margin: 0;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     .highlight {
       background: #87ceeb88;
+    }
+    @media (min-width: 600px) {
+      margin-bottom: 64px;
+      font-size: 21px;
+      line-height: 48px;
     }
   }
 `;

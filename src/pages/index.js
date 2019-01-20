@@ -3,18 +3,18 @@ import React from 'react';
 import PageWrapper from '../container/PageWrapper';
 import FeaturedWorks from '../components/FeaturedWorks';
 import Section from '../components/Section';
-import { TextGrid } from '../styles';
+import { TextGrid, Title, SubTitle } from '../styles';
 
 const IndexPage = () => (
   <PageWrapper>
     <Section>
       <TextGrid>
-        <h1>Portfolio</h1>
-        <h2 style={{ marginBottom: 72 }}>Marvin Kubiak</h2>
+        <Title>Portfolio</Title>
+        <SubTitle>Marvin Kubiak</SubTitle>
         <p>
           Hallo! My name is Marvin Kubiak, I like the number <span className="highlight">1990</span> and I'm passionate with lots of
-          design-related topics such as <span className="highlight">typography,</span> <span className="highlight">3D-rendering,</span>{' '}
-          <span className="highlight">Color therory</span> and other small things, that make the world a bit easier. I focus on good{' '}
+          design-related topics such as <span className="highlight">typography</span>, <span className="highlight">3D-rendering</span>,{' '}
+          <span className="highlight">color theory</span> and other small things, that make the world a bit easier. I focus on good{' '}
           <span className="highlight">User Experience</span> on Webapps, Websites and native mobile screens. For that I build{' '}
           <span className="highlight">modular design systems</span> with a{' '}
           <span className="highlight">good branding for your Company in mind.</span> Let's talk and see if we can work together to improve
