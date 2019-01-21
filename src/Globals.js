@@ -61,6 +61,7 @@ export const globalStyles = css`
     margin-bottom: 32px;
     .highlight {
       background: #87ceeb88;
+      color: #bbe1f5;
     }
     @media (min-width: 600px) {
       margin-bottom: 64px;
