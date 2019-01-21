@@ -4,7 +4,7 @@ date: '2017-11-07'
 title: 'Fintech Redesign – Study'
 subtitle: 'Corporate Identity'
 type: 'portfolio'
-image: '../../images/work/01_alpha_small.png'
+image: '../../images/work/01_alpha_1000.png'
 headerColor: 'radial-gradient(circle at 47% 57%, #999999, #6a6a6a)'
 featured: true
 ---
