@@ -23,6 +23,7 @@ const FeaturedWorks = () => {
                   path
                   title
                   subtitle
+                  headerColor
                   image {
                     childImageSharp {
                       original {

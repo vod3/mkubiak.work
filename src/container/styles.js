@@ -36,7 +36,7 @@ export const PortfolioHeader = styled.div`
 
 export const PortfolioImage = styled.img`
   width: 100%;
-  max-width: 1200px;
+  max-width: ${({ maxWidth }) => maxWidth || '1200px'};
 `;
 
 export const Main = styled.main`

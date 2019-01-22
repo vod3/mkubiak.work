@@ -28,6 +28,7 @@ The last project is the improvement of the app itself, the dashboard. The users 
 **The new Viepage.** <br> The Apartment Photos and the primary Call-to-Action get the most attention, everything else is minimalistic and tries to use as few colors as possible.
 
 ![hl](../../images/work/new_search1.png)
+
 ![hl](../../images/work/new_search2.png)
 
 **The new Searchpage.** <br>

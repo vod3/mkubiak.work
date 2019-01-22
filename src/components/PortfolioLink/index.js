@@ -1,14 +1,16 @@
 import React from 'react';
 
-import { Image, PortfolioWork, ContentSide, Title, SubTitle, Excerpt } from './styles';
+import { ImageWrapper, Image, PortfolioWork, ContentSide, Title, SubTitle, Excerpt } from './styles';
 
-const PortfolioLink = ({ image = {}, path, title, subtitle, excerpt }) => {
+const PortfolioLink = ({ image = {}, headerColor, path, title, subtitle, excerpt }) => {
   const { childImageSharp = {} } = image;
   const { original = {} } = childImageSharp;
   const { src = '' } = original;
   return (
     <PortfolioWork to={path}>
-      <Image image={src} />
+      <ImageWrapper bgColor={headerColor}>
+        <Image src={src} />
+      </ImageWrapper>
       <ContentSide>
         <Title>{title}</Title>
         <SubTitle>{subtitle}</SubTitle>

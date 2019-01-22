@@ -22,6 +22,7 @@ export const pageQuery = graphql`
         title
         subtitle
         headerColor
+        headerMaxWidth
         image {
           childImageSharp {
             original {

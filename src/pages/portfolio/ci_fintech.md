@@ -9,12 +9,16 @@ headerColor: 'radial-gradient(circle at 47% 57%, #999999, #6a6a6a)'
 featured: true
 ---
 
-What if? The old Corporate Identity from a german Fintech startup has its origin in the year 2011, but the Business focus shifted a lot since. In times where a brand has to be presented on all plattforms and screensizes the CI has to be adaptive from the start. From classic print to adaptive screensizes the Corporate Identity was build from scratch and presented on different mediums.
+What if? The old Corporate Identity from a German Fintech startup was founded in 2011, but the Business focus shifted a lot since then. In times where a brand has to be presented on all plattforms and screensizes the CI has to be adaptive from the start. From classic print to adaptive screensizes the Corporate Identity was built from scratch and presented on different mediums.
 
-For this I created a studio mockup and tried different lighting setups to present the CI on different materials. All was created in 3D and rendered.
+For this, I created a studio mockup and tried different lighting setups to present the CI on different materials. All was created in 3D and rendered.
 
 ![CI](../../images/work/fintech_5.jpg)
+
 ![CI](../../images/work/fintech_4.jpg)
+
 ![CI](../../images/work/fintech_3.jpg)
+
 ![CI](../../images/work/fintech_2.jpg)
+
 ![CI](../../images/work/fintech_1.jpg)

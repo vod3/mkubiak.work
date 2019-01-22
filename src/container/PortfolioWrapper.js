@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation';
 import PostGlobals from './PostGlobals';
 import { PortfolioPage, PortfolioHeader, PortfolioImage, Post, BackLink } from './styles';
 
-const PortfolioWrapper = ({ title, subtitle, image, headerColor, html }) => {
+const PortfolioWrapper = ({ title, subtitle, image, headerColor, headerMaxWidth, html }) => {
   const src = get(image, 'childImageSharp.original.src', '');
 
   return (
@@ -17,7 +17,7 @@ const PortfolioWrapper = ({ title, subtitle, image, headerColor, html }) => {
         </Helmet>
         <Navigation />
         <PortfolioHeader background={headerColor}>
-          <PortfolioImage src={src} />
+          <PortfolioImage maxWidth={headerMaxWidth} src={src} />
         </PortfolioHeader>
         <Post>
           <BackLink to="/portfolio">← Back to Portfolio</BackLink>

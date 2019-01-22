@@ -5,6 +5,7 @@ export const PortfolioWork = styled(Link)`
   display: grid;
   grid-template-rows: auto 1fr;
   grid-gap: 24px;
+  align-items: center;
   padding: 24px;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 16px 32px 0 rgba(0, 0, 0, 0.1);
@@ -27,16 +28,27 @@ export const PortfolioWork = styled(Link)`
   }
 `;
 
-export const Image = styled.div`
-  background-image: url(${({ image }) => image});
+export const ImageWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: ${({ bgColor }) => bgColor};
+  height: 192px;
+  overflow: hidden;
+  @media (min-width: 600px) {
+    height: 232px;
+  }
+`;
+
+export const Image = styled.img`
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 192px;
-  width: 100%;
+  height: 100%;
   @media (min-width: 600px) {
-    padding-top: 232px;
+    height: auto;
+    width: 100%;
   }
 `;
 
