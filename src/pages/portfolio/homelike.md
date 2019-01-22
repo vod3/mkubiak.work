@@ -17,7 +17,7 @@ There is alot of visual noise which distracts from the good looking photos from 
 
 ![hl](../../images/work/old_view.jpg)
 
-The Apartment View Page suffers from the opposite proplem, it offers too much space for the photos. Depending on the screensize, the photos in the header can be stretched up to 1920px width, which distorts the quality of the image and shows compression artifacts. Furthermore, the primary action of this page is to book the apartment. The design doesn’t support this business decision, because the old Call-to-Action button conflicts with dominant colorsfrom other UI-Elements such as the Topbar. Shifting focus on the quality photos and the „Book Now“ will be the goal of the redesign.
+The Apartment View Page suffers from the opposite problem, it offers too much space for the photos. Depending on the screensize, the photos in the header can be stretched up to 1920px width, which distorts the quality of the image and shows compression artifacts. Furthermore, the primary action of this page is to book the apartment. The design doesn’t support this business decision, because the old Call-to-Action button conflicts with dominant colorsfrom other UI-Elements such as the Topbar. Shifting focus on the quality photos and the „Book Now“ will be the goal of the redesign.
 
 ![hl](../../images/work/old_dash.jpg)
 
