@@ -6,6 +6,7 @@ subtitle: 'Interface'
 type: 'portfolio'
 image: '../../images/work/homelike_head.png'
 headerColor: 'linear-gradient(-179deg, #52A6E3 0%, #6699CC 100%);'
+headerMaxWidth: '1000px'
 featured: true
 ---
 
