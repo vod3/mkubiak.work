@@ -57,7 +57,7 @@ export const globalStyles = css`
     font-size: 21px;
     line-height: 48px;
     margin: 0;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     .highlight {
       background: #6699cc33;
     }
