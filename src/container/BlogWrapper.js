@@ -4,9 +4,9 @@ import get from 'lodash/get';
 
 import Navigation from '../components/Navigation';
 import PostGlobals from './PostGlobals';
-import { PortfolioPage, PortfolioHeader, PortfolioImage, Post, BackLink } from './styles';
+import { PortfolioPage, Post, BlogHeader, BlogData, BackLink, PostImage } from './styles';
 
-const PortfolioWrapper = ({ title, subtitle, image, headerColor, headerMaxWidth, html }) => {
+const PortfolioWrapper = ({ title, subtitle, image, html }) => {
   const src = get(image, 'childImageSharp.original.src', '');
 
   return (
@@ -16,13 +16,15 @@ const PortfolioWrapper = ({ title, subtitle, image, headerColor, headerMaxWidth,
           <html lang="en" />
         </Helmet>
         <Navigation />
-        <PortfolioHeader background={headerColor}>
-          <PortfolioImage maxWidth={headerMaxWidth} src={src} />
-        </PortfolioHeader>
+        <BlogHeader>
+          <BackLink to="/portfolio">← Back to Blog</BackLink>
+          <PostImage src={src} />
+          <BlogData>
+            <h1>{title}</h1>
+            <h2>{subtitle}</h2>
+          </BlogData>
+        </BlogHeader>
         <Post>
-          <BackLink to="/portfolio">← Back to Work</BackLink>
-          <h1>{title}</h1>
-          <h2 style={{ marginBottom: 52 }}>{subtitle}</h2>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Post>
       </PortfolioPage>

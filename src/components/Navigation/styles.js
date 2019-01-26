@@ -15,6 +15,7 @@ export const Wrapper = styled.header`
   margin: 0 auto;
   width: 100%;
   grid-gap: 16px;
+  z-index: 0;
   @media (min-width: 600px) {
     align-items: center;
     justify-content: center;

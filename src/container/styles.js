@@ -48,7 +48,23 @@ export const Post = styled.main`
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 48px 16px;
+  padding: 32px 16px;
+`;
+
+export const BlogHeader = styled.div`
+  padding-top: 280px;
+  width: 100%;
+  position: relative;
+`;
+export const PostImage = styled.div`
+  background-image: url(${({ src }) => src});
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 300px;
+  @media (min-width: 600px) {
+    padding-top: 552px;
+  }
 `;
 
 export const BackLink = styled(Link)`
@@ -57,5 +73,20 @@ export const BackLink = styled(Link)`
   font-size: 21px;
   color: #899394;
   line-height: 48px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   margin-bottom: 16px;
+`;
+
+export const BlogData = styled.div`
+  position: absolute;
+  bottom: 0;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 32px 16px;
+  left: 0;
+  right: 0;
+  background-color: rgba(48, 49, 51, 0.7);
 `;

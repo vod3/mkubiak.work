@@ -2,6 +2,7 @@ import React from 'react';
 
 import PageWrapper from '../container/PageWrapper';
 import FeaturedWorks from '../components/FeaturedWorks';
+import BlogPosts from '../components/BlogPosts';
 import Section from '../components/Section';
 import { TextGrid, Title, SubTitle } from '../styles';
 
@@ -24,6 +25,9 @@ const IndexPage = () => (
     </Section>
     <Section title="Selected Work">
       <FeaturedWorks />
+    </Section>
+    <Section title="Recent Blog Entries">
+      <BlogPosts />
     </Section>
   </PageWrapper>
 );

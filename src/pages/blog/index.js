@@ -1,13 +1,13 @@
 import React from 'react';
 
 import PageWrapper from '../../container/PageWrapper';
-import PortfolioWorks from '../../components/PortfolioWorks';
+import BlogPosts from '../../components/BlogPosts';
 import Section from '../../components/Section';
 
 const BlogPage = () => (
   <PageWrapper>
     <Section>
-      <PortfolioWorks />
+      <BlogPosts />
     </Section>
   </PageWrapper>
 );
