@@ -9,11 +9,7 @@ const FeaturedWorks = () => {
     <StaticQuery
       query={graphql`
         query {
-          allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
-            limit: 3
-            filter: { frontmatter: { type: { eq: "portfolio" } } }
-          ) {
+          allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: { frontmatter: { type: { eq: "portfolio" } } }) {
             edges {
               node {
                 id
