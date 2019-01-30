@@ -37,6 +37,7 @@ export const globalStyles = css`
     font-size: 21px;
     line-height: 32px;
     margin: 0;
+    color: #ffffff;
     @media (min-width: 600px) {
       font-size: 40px;
       line-height: 48px;
