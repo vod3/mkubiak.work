@@ -26,6 +26,9 @@ export const PortfolioWork = styled(Link)`
     grid-template-columns: 1fr 1fr;
     margin: 0 0 64px;
   }
+  &:hover {
+    text-decoration: none;
+  }
 `;
 
 export const ImageWrapper = styled.div`
