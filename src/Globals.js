@@ -34,7 +34,7 @@ export const globalStyles = css`
   h1 {
     font-weight: 900;
     font-style: italic;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 32px;
     margin: 0;
     @media (min-width: 600px) {
@@ -45,12 +45,12 @@ export const globalStyles = css`
   h2 {
     font-style: italic;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 32px;
     color: #ccd0d9;
     margin: 0;
     @media (min-width: 600px) {
-      font-size: 40px;
+      font-size: 28px;
       line-height: 48px;
     }
   }
