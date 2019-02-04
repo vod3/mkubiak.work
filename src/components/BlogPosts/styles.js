@@ -7,9 +7,11 @@ export const Grid = styled.div`
   width: 100%;
 `;
 
-export const PostWrapper = styled.div`
+export const PostWrapper = styled.a`
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  appearance: none;
 `;
 
 export const Title = styled.h3`
@@ -18,6 +20,7 @@ export const Title = styled.h3`
   font-weight: 900;
   font-style: italic;
   line-height: 48px;
+  color: #ffffff;
 `;
 export const SubTitle = styled.h4`
   margin: 0;

@@ -3,8 +3,8 @@ import Helmet from 'react-helmet';
 import get from 'lodash/get';
 
 import Navigation from '../components/Navigation';
+import Globals from '../Globals';
 import { Row } from '../styles';
-import PostGlobals from './PostGlobals';
 import { PostPage, Post, BackLink } from './styles';
 
 const PostWrapper = ({ children, title, subtitle, image }) => {
@@ -12,7 +12,7 @@ const PostWrapper = ({ children, title, subtitle, image }) => {
   console.log(src);
 
   return (
-    <PostGlobals>
+    <Globals>
       <PostPage>
         <Helmet title={`${title} | MKubiak`}>
           <html lang="en" />
@@ -28,7 +28,7 @@ const PostWrapper = ({ children, title, subtitle, image }) => {
           {children}
         </Post>
       </PostPage>
-    </PostGlobals>
+    </Globals>
   );
 };
 

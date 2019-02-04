@@ -8,7 +8,7 @@ const Post = ({ image = {}, path, title, subtitle }) => {
   const { src = '' } = original;
 
   return (
-    <PostWrapper>
+    <PostWrapper href={path}>
       <Title>{title}</Title>
       <SubTitle>{subtitle}</SubTitle>
       {src ? <Image src={src} /> : null}

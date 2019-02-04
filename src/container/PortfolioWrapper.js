@@ -3,14 +3,14 @@ import Helmet from 'react-helmet';
 import get from 'lodash/get';
 
 import Navigation from '../components/Navigation';
-import PostGlobals from './PostGlobals';
+import Globals from '../Globals';
 import { PortfolioPage, PortfolioHeader, PortfolioImage, Post, BackLink } from './styles';
 
 const PortfolioWrapper = ({ title, subtitle, image, headerColor, headerMaxWidth, html }) => {
   const src = get(image, 'childImageSharp.original.src', '');
 
   return (
-    <PostGlobals>
+    <Globals>
       <PortfolioPage>
         <Helmet title={`${title} | MKubiak`}>
           <html lang="en" />
@@ -26,7 +26,7 @@ const PortfolioWrapper = ({ title, subtitle, image, headerColor, headerMaxWidth,
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Post>
       </PortfolioPage>
-    </PostGlobals>
+    </Globals>
   );
 };
 

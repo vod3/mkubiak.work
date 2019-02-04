@@ -37,6 +37,7 @@ export const globalStyles = css`
     font-size: 24px;
     line-height: 32px;
     margin: 0;
+    color: #ffffff;
     @media (min-width: 600px) {
       font-size: 40px;
       line-height: 48px;
@@ -54,6 +55,25 @@ export const globalStyles = css`
       line-height: 48px;
     }
   }
+  h3 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+    @media (min-width: 600px) {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+  a {
+    color: #a0bdde;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.9;
+      text-decoration: underline;
+    }
+  }
   p {
     font-size: 16px;
     line-height: 32px;
@@ -68,6 +88,9 @@ export const globalStyles = css`
       font-size: 21px;
       line-height: 48px;
     }
+  }
+  img {
+    width: 100%;
   }
 `;
 

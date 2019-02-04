@@ -25,3 +25,13 @@ export const SubTitle = styled.h2`
     margin-bottom: 72px;
   }
 `;
+
+export const MarvImage = styled.img`
+  max-width: 530px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  @media (min-width: 600px) {
+    margin-bottom: 128px;
+  }
+`;
