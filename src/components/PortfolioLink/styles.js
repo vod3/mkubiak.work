@@ -49,6 +49,8 @@ export const Image = styled.img`
   background-repeat: no-repeat;
   position: relative;
   height: 100%;
+  width: auto;
+
   @media (min-width: 600px) {
     height: auto;
     width: 100%;
