@@ -77,7 +77,7 @@ export const SubTitle = styled.h4`
 
 export const Excerpt = styled.p`
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: normal;
 `;

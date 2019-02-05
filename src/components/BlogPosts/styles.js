@@ -24,10 +24,9 @@ export const Title = styled.h3`
 `;
 export const SubTitle = styled.h4`
   margin: 0;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: normal;
-  font-style: italic;
-  line-height: 48px;
+  line-height: 1.3;
   color: #aab2b2;
   margin-bottom: 32px;
 `;
