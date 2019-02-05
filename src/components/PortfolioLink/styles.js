@@ -33,7 +33,7 @@ export const PortfolioWork = styled(Link)`
 
 export const ImageWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: ${({ bgColor }) => bgColor};
   height: 192px;
