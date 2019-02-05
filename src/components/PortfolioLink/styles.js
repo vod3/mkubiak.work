@@ -50,10 +50,8 @@ export const Image = styled.img`
   position: relative;
   height: 100%;
   width: auto;
-
   @media (min-width: 600px) {
-    height: auto;
-    width: 100%;
+    height: 85%;
   }
 `;
 
