@@ -5,7 +5,7 @@ title: 'Dashboard'
 subtitle: 'Homelike UI Redesign'
 type: 'portfolio'
 image: '../../images/work/homelike_dashboard_head.png'
-headerColor: 'linear-gradient(-179deg, #52A6E3 0%, #6699CC 100%);'
+headerColor: 'linear-gradient(0deg, #93F9B9 0%, #1D976C 100%);'
 headerMaxWidth: '1000px'
 featured: true
 ---

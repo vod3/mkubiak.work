@@ -5,7 +5,7 @@ title: 'Apartment View Page'
 subtitle: 'Homelike UI Redesign'
 type: 'portfolio'
 image: '../../images/work/homelike_view_head.png'
-headerColor: 'linear-gradient(-179deg, #52A6E3 0%, #6699CC 100%);'
+headerColor: 'linear-gradient(-179deg, #FF8863 0%, #FFAD63 100%);'
 headerMaxWidth: '1000px'
 featured: true
 ---
