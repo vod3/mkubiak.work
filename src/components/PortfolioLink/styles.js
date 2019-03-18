@@ -5,11 +5,11 @@ export const PortfolioWork = styled(Link)`
   display: grid;
   grid-template-rows: auto 1fr;
   grid-gap: 24px;
-  align-items: center;
-  padding: 24px;
+  align-items: flex-end;
+  /* padding: 24px; */
   border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 16px 32px 0 rgba(0, 0, 0, 0.1);
-  background-color: #393b40;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 16px 32px 0 rgba(0, 0, 0, 0.1);
+  background-color: #393b40; */
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -21,7 +21,7 @@ export const PortfolioWork = styled(Link)`
   @media (min-width: 600px) {
     width: 100%;
     grid-gap: 32px;
-    padding: 32px;
+    /* padding: 32px; */
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     margin: 0 0 64px;

@@ -60,7 +60,7 @@ export const globalStyles = css`
     font-weight: 900;
     font-size: 32px;
     line-height: 48px;
-    margin: 0;
+    margin-bottom: 0.5em;
     @media (min-width: 600px) {
       font-size: 32px;
       line-height: 48px;
