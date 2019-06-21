@@ -47,3 +47,9 @@ export const MarvImage = styled.img`
     margin-bottom: 0;
   }
 `;
+
+export const ContactIcon = styled.a`
+  color: white;
+  cursor: pointer;
+  margin-right: 16px;
+`;
