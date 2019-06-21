@@ -48,8 +48,32 @@ export const MarvImage = styled.img`
   }
 `;
 
-export const ContactIcon = styled.a`
+export const ContactGrid = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+export const ContactRow = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const ContactIcon = styled.h2`
   color: white;
   cursor: pointer;
   margin-right: 16px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  &:last-of-type {
+    margin: 0;
+  }
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
 `;
