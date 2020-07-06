@@ -16,7 +16,7 @@ This was a tough Project. The Homelike application is a very powerful and featur
 
 In the old version there were several issues with the overview in the tables. If the users wanted to see more details in one booking, the table cell opened itself vertically, pushing all other entries outside the view. Furthermore, the horizontal alignment of the details made a mobile version of the Dashboard nearlly impossible to use. So a completly new design was conceptualized from scratch, with mobile experience and UX guidelines in mind.
 
-![old_dashboard](../../images/work/old_4.jpg)
+![old_dashboard](../../images/work/old_5.jpg)
 
 I started with the global navigation as a Sidebar. While the classical layout, with the header on top, navigation on the left and content right offers easy and fast understanding of the application, the space for the content gets limited by the fixed width of the Sidebar, especially on smaller desktops. And because we use a lot of tables with more than 5 columns, we need as much space as possible horizontally. That is why I placed the navigation on top of the page and made it scale horizontally. It is the first thing the user perceives when reading from top to bottom, so we support the hierachy of the page content by using a top-placed navigation.
 
